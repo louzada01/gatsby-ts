@@ -1,16 +1,7 @@
 import React from 'react';
 
-import Title from '@/components/Title';
+import Home from '@/pages/home';
 
-const Home: React.FC<{}> = () => {
-  return (
-    <main>
-      <Title />
-      <p>
-        This is a nice TypeScript starter for Gatsby, great for advanced users!
-      </p>
-    </main>
-  );
-};
+const Index: React.FC<{}> = () => <Home />;
 
-export default Home;
+export default Index;
